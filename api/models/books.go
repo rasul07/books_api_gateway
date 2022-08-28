@@ -17,6 +17,7 @@ type Book struct {
 	Description string `json:"description"`
 	Pages       int32  `json:"pages"`
 	Year        string `json:"year"`
+	Count       int32  `json:"count" swaggerignore:"true"`
 }
 
 type BookList struct {
